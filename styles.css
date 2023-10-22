@@ -1,2 +1,26 @@
-
 /* Your CSS Code here. */
+#a{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+	font-size: 30px;
+}
+#b{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+	font-size: 30px;
+}
+#c{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+	font-size: 30px;
+}
+
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly  ;
+    margin-top: 10px;
+}
